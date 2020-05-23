@@ -3,7 +3,10 @@
 }
 
     <div class="text-center">
-        <asp:Image ID="Image1" runat="server" ImageUrl="images/k_avatar.png"></asp:Image>
-        <img src="images/k_avatar.png" class="rounded-circle" style="width: 150px; height: 150px;"/>
+        @{
+            <asp:img ID="Image1" runat="server" ImageUrl="images/k_avatar.png" />
+        }
+        
+        <img src="images/k_avatar.png" style="width: 150px; height: 150px;" class="rounded-circle" />
         <h1 class="display-4">Kwothsei</h1>
     </div>
