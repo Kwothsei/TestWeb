@@ -18,13 +18,13 @@ namespace TestWeb.Controllers
             _logger = logger;
         }
         
-        public IActionResult Index()
+        public IActionResult index()
             => View();
 
-        public IActionResult Privacy()
+        public IActionResult privacy()
             => View();
 
-        public IActionResult CV()
+        public IActionResult cv()
             => View();
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

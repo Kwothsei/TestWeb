@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Views\Home\images\k_avatar.png" />
+    <None Remove="Views\images\k_avatar.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Views\Home\images\k_avatar.png" />
+    <Content Include="Views\images\k_avatar.png" />
   </ItemGroup>
 
   <ItemGroup>
