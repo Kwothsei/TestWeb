@@ -24,7 +24,7 @@ namespace TestWeb.Controllers
         public IActionResult privacy()
             => View();
 
-        public IActionResult cv()
+        public IActionResult about()
             => View();
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
