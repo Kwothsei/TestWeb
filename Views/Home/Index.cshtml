@@ -10,22 +10,20 @@
     var rn2 = rnd1.Next(1, 12);
 }
 
-    <div class="text-center">
-        <h1 class="display-4">Welcome</h1>
-        <hr />
-        <p>This is a test website.</p>
-        <button style="background-color: aquamarine">Test Button</button>
-        <hr />
-        <table style="width: 100%; outline-color: black; outline-width: 2px;">
-            <tr>
-                <th style="background-color: aquamarine; outline-style: solid; outline-color: black; outline-width: 0.5px;">Day</th>
-                <th style="background-color: aquamarine; outline-style: solid; outline-color: black; outline-width: 0.5px;">Month</th>
-                <th style="background-color: aquamarine; outline-style: solid; outline-color: black; outline-width: 0.5px;">Year</th>
-            </tr>
-            <tr>
-                <td style="background-color: lightgray; outline-style: solid; outline-color: black; outline-width: 0.2px;">@rn1</td>
-                <td style="background-color: lightgray; outline-style: solid; outline-color: black; outline-width: 0.2px;">@rn2</td>
-                <td style="background-color: lightgray; outline-style: solid; outline-color: black; outline-width: 0.2px;">@DateTime.Today.Year.ToString()</td>
-            </tr>
-        </table>
-    </div>
+<div class="text-center">
+    <h1 class="display-4">Welcome to aspweb</h1>
+    <p>This is a test website used to play around an experiment with ASP.NET Core</p>
+
+    <table style="width: 100%; outline-color: black; outline-width: 2px;">
+        <tr>
+            <th style="background-color: aquamarine; outline-style: solid; outline-color: black; outline-width: 0.5px;">Day</th>
+            <th style="background-color: aquamarine; outline-style: solid; outline-color: black; outline-width: 0.5px;">Month</th>
+            <th style="background-color: aquamarine; outline-style: solid; outline-color: black; outline-width: 0.5px;">Year</th>
+        </tr>
+        <tr>
+            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@rn1</td>
+            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@rn2</td>
+            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@DateTime.Today.Year.ToString()</td>
+        </tr>
+    </table>
+</div>
