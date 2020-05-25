@@ -5,11 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Views\images\k_avatar.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Views\images\k_avatar.png" />
+    <Compile Remove="Views\images\**" />
+    <Content Remove="Views\images\**" />
+    <EmbeddedResource Remove="Views\images\**" />
+    <None Remove="Views\images\**" />
   </ItemGroup>
 
   <ItemGroup>

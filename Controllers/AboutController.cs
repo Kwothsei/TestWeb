@@ -9,11 +9,11 @@ using TestWeb.Models;
 
 namespace TestWeb.Controllers
 {
-    public class PrivacyController : Controller
+    public class AboutController : Controller
     {
-        private readonly ILogger<PrivacyController> _logger;
+        private readonly ILogger<AboutController> _logger;
 
-        public PrivacyController(ILogger<PrivacyController> logger)
+        public AboutController(ILogger<AboutController> logger)
         {
             _logger = logger;
         }
