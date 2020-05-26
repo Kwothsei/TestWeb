@@ -13,9 +13,9 @@
             <th style="background-color: aquamarine; outline-style: solid; outline-color: black; outline-width: 0.5px;">Year</th>
         </tr>
         <tr>
-            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@DateTime.Today.Day</td>
-            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@DateTime.Today.Month</td>
-            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@DateTime.Today.Year.ToString()</td>
+            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@DateTime.Now.ToString("dd")</td>
+            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@DateTime.Now.ToString("MMMM")</td>
+            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@DateTime.Now.ToString("yyyy")</td>
         </tr>
     </table>
 </div>
