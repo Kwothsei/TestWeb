@@ -2,14 +2,6 @@
     ViewData["Title"] = "Home";
 }
 
-@{
-    var rnd1 = new Random();
-    var rn1 = rnd1.Next(1, 31);
-
-    var rnd2 = new Random();
-    var rn2 = rnd1.Next(1, 12);
-}
-
 <div class="text-center">
     <h1 class="display-4">Welcome to aspweb</h1>
     <p>This is a test website used to play around an experiment with ASP.NET Core</p>
@@ -21,8 +13,8 @@
             <th style="background-color: aquamarine; outline-style: solid; outline-color: black; outline-width: 0.5px;">Year</th>
         </tr>
         <tr>
-            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@rn1</td>
-            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@rn2</td>
+            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@DateTime.Today.Day</td>
+            <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@DateTime.Today.Month</td>
             <td style="background-color: floralwhite; outline-style: solid; outline-color: black; outline-width: 0.2px;">@DateTime.Today.Year.ToString()</td>
         </tr>
     </table>
